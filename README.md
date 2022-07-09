@@ -1,6 +1,7 @@
 # Structure-Preserving Motion Estimation for Learned Video Compression
 
-Official implementation of "Structure-Preserving Motion Estimation for Learned Video Compression". (ACM Multimedia 2022 Poster) [Link]
+Official implementation of the paper:
+Structure-Preserving Motion Estimation for Learned Video Compression, Han Gao, Jinzhong Cui, Mao Ye, Shuai Li, Yu Zhao, Xiatian Zhu. ACM Multimedia 2022. [Link]
 
 ## TODO
 * Upload Appendix.pdf
