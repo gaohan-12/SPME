@@ -20,7 +20,7 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 ## Run
 
 ## Citation
-If you find this paper useful, please cite:
+If you find this paper useful, kindly cite:
 
 ## Contact
 If any questions, kindly contact with Han Gao via e-mail: han.gao@std.uestc.edu.cn.
