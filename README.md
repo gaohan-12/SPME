@@ -13,9 +13,11 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 ## Overview
 ![Overview](https://github.com/gaohan-12/SPME/blob/main/Overview.png)
 
-## Data Preparation
-
 ## Requirements
+* Python==3.8
+* Pytorch==1.9
+
+## Data Preparation
 
 ## Run
 
