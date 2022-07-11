@@ -23,8 +23,7 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 Download [Vimeo-90k dataset](http://toflow.csail.mit.edu/).
 
 ### Testing dataset
-Download [HEVC dataset](), [UVG dataset](http://ultravideo.fi/#testsequences)(1080p/8bit/YUV/RAW) and [MCL-JCV dataset](http://mcl.usc.edu/
-mcl-jcv-dataset/).
+Download [HEVC dataset](), [UVG dataset](http://ultravideo.fi/#testsequences)(1080p/8bit/YUV/RAW) and [MCL-JCV dataset](http://mcl.usc.edu/mcl-jcv-dataset/).
 
 ## Run
 
