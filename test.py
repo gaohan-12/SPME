@@ -26,7 +26,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Testing configs")
 
     parser.add_argument("--lambda_weight", type=int, default=2048, help="the lambda value")
-    parser.add_argument("--model_path", type=str, default="./Checkpoints/2048.pth", help="the pre-trained model path")
+    parser.add_argument("--model_path", type=str, default="./Checkpoints/SPME_084.pth", help="the pre-trained model path")
 
     args = parser.parse_args()
     return args
@@ -159,7 +159,7 @@ if __name__ == "__main__":
     pretrained_dict = torch.load(args.model_path)
     model_dict = model.state_dict()
     ckpt = pretrained_dict
-    pretrained_net = {k: v for k, v in ckpt["net"].items() if k in model_dict}
+    pretrained_net = {k: v for k, v in ckpt.items() if k in model_dict}
     model_dict.update(pretrained_net)
     model.load_state_dict(model_dict, strict=False)
 
