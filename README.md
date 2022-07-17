@@ -14,18 +14,24 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 ![Overview](https://github.com/gaohan-12/SPME/blob/main/Overview.png)
 
 ## Requirements
+
 * Python==3.8
 * Pytorch==1.9
 
 ## Data Preparation
 
 ### Testing dataset
+
 * Download [HEVC dataset](), [UVG dataset](http://ultravideo.fi/#testsequences)(1080p/8bit/YUV/RAW) and [MCL-JCV dataset](http://mcl.usc.edu/mcl-jcv-dataset/), and convert them from YUV format to png format.
 
 ## Test
+
 * Change the configs in the class *HEVC_dataset* of the file [dataset.py]() to the dataset path to be tested, e.g.:
+
 `root="/home/xxx/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"`
+
 * Run the test.py for testing, in which the config named *model_path* is the pretrained model, and *lambda_weight* is the lambda value of the prerained model, e.g.:
+
 `python -m test.py --lambda_weight=2048 --model_path="./Checkpoints/2048.pth"`
 
 ## Acknowledgement
