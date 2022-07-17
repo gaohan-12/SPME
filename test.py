@@ -15,7 +15,7 @@ from torch.utils.data.dataloader import DataLoader
 from torch.autograd import Variable
 from compressai.zoo import cheng2020_attn, cheng2020_anchor, bmshj2018_hyperprior
 
-from dataset import HEVCDataSet, UVGDataSet, VTL_DataSet
+from dataset1 import HEVCDataSet, UVGDataSet, VTL_DataSet
 from SPMENet import SPME_Net
 
 
@@ -25,8 +25,8 @@ gpu_num = torch.cuda.device_count()
 def parse_args():
     parser = argparse.ArgumentParser(description="Testing configs")
 
-    parser.add_argument("--lambda_weight", type=int, default=2048, help="the lambda value")
-    parser.add_argument("--model_path", type=str, default="/home/zhaoyu/DVC_Pro/Experiments/2022-07-06_09-34/Checkpoints/SPME_083.pth", help="the pre-trained model path")
+    parser.add_argument("--lambda_weight", type=int, help="the lambda value")
+    parser.add_argument("--model_path", type=str, help="the pre-trained model path")
 
     args = parser.parse_args()
     return args
@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
     print("Number of Total Parameters:", sum(x.numel() for x in net.parameters()))
     global test_dataset
-    test_dataset = UVGDataSet()
+    test_dataset = HEVCDataSet()
     test()
     exit(0)
 
