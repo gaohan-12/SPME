@@ -48,7 +48,6 @@ During implementation, we drawed on the experience of [CompressAI](https://githu
 
 If you find this paper useful, kindly cite:
 
-&ensp&ensp
 ```
 @inproceedings{gao2022structure,
   title={Hybrid Spatial-Temporal Entropy Modelling for Neural Video Compression},
