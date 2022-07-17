@@ -5,12 +5,14 @@ This is the official implementation and appendix of the paper:
 Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, Jinzhong Cui, Mao Ye, Shuai Li, Yu Zhao, Xiatian Zhu. ACM Multimedia 2022. [Link(TODO)]
 
 ## TODO
+
 * Upload appendix.pdf;
 * Upload codes;
 * Upload pretrained models;
 * Update README.md.
 
 ## Overview
+
 ![Overview](https://github.com/gaohan-12/SPME/blob/main/Overview.png)
 
 ## Requirements
@@ -26,7 +28,7 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 
 ## Test
 
-* Change the configs in the class *HEVC_dataset* of the file [dataset.py]() to the path of the data to be tested, e.g.:
+* Change the configs in the class *HEVC_dataset* of the file [dataset.py](https://github.com/gaohan-12/SPME/blob/main/dataset.py) to the path of the data to be tested, e.g.:
 
 ```
 root="/home/xxx/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"
@@ -39,9 +41,11 @@ python -m test.py --lambda_weight=2048 --model_path="./Checkpoints/2048.pth"
 ```
 
 ## Acknowledgement
+
 During implementation, we drawed on the experience of [CompressAI](https://github.com/InterDigitalInc/CompressAI), [PyTorchVideoCompression](https://github.com/ZhihaoHu/PyTorchVideoCompression) and [DCVC](https://github.com/DeepMC-DCVC/DCVC). The model weights of intra coding are from [CompressAI](https://github.com/InterDigitalInc/CompressAI).
 
 ## Citation
+
 If you find this paper useful, kindly cite:
 
 ```
@@ -54,4 +58,5 @@ If you find this paper useful, kindly cite:
 ```
 
 ## Contact
+
 If any questions, kindly contact with Han Gao via e-mail: han.gao@std.uestc.edu.cn.
