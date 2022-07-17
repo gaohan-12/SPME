@@ -50,7 +50,7 @@ If you find this paper useful, kindly cite:
 
 ```
 @inproceedings{gao2022structure,
-  title={Hybrid Spatial-Temporal Entropy Modelling for Neural Video Compression},
+  title={Structure-Preserving Motion Estimation for Learned Video Compression},
   author={Gao, Han and Cui, Jinzhong and Ye, Mao and Li, Shuai and Zhao, Yu and Zhu, Xiatian},
   booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
   year={2022}
