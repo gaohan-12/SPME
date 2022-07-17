@@ -22,10 +22,11 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 ### Testing dataset
 * Download [HEVC dataset](), [UVG dataset](http://ultravideo.fi/#testsequences)(1080p/8bit/YUV/RAW) and [MCL-JCV dataset](http://mcl.usc.edu/mcl-jcv-dataset/), and convert them from YUV format to png format.
 
-## Run
-
-### Change the configs in the class *HEVC_dataset* of the file [dataset.py]() to the dataset path to be tested, e.g:
-`root="/home/zhaoyu/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"`
+## Test
+* Change the configs in the class *HEVC_dataset* of the file [dataset.py]() to the dataset path to be tested, e.g.:
+`root="/home/xxx/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"`
+* Run the test.py for testing, in which the config named *model_path* is the pretrained model, and *lambda_weight* is the lambda value of the prerained model, e.g.:
+`python -m test.py --lambda_weight=2048 --model_path="./Checkpoints/2048.pth"`
 
 ## Acknowledgement
 During implementation, we drawed on the experience of [CompressAI](https://github.com/InterDigitalInc/CompressAI), [PyTorchVideoCompression](https://github.com/ZhihaoHu/PyTorchVideoCompression) and [DCVC](https://github.com/DeepMC-DCVC/DCVC). The model weights of intra coding are from [CompressAI](https://github.com/InterDigitalInc/CompressAI).
