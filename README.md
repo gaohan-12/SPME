@@ -8,8 +8,8 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 
 * Upload appendix.pdf [done];
 * Upload codes [done];
-* Upload pretrained models [Exceed size constraint, will be solved soon];
-* Update README.md.
+* Upload pretrained models [done];
+* Update README.md [Continuous maintenance].
 
 ## Overview
 
