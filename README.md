@@ -34,7 +34,7 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
   root="/home/xxx/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"
   ```
 
-* Run the test.py for testing, in which the config named `--model_path` is the pretrained model, and `--lambda_weight` is the lambda value of the prerained model, e.g. :
+* Run [test.py](https://github.com/gaohan-12/SPME/blob/main/test.py) for testing, in which the config named `--model_path` is the pretrained model path, and `--lambda_weight` is the lambda value of the prerained model, e.g. :
 
   ```
   python -m test.py --lambda_weight=2048 --model_path="./Checkpoints/2048.pth"
