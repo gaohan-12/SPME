@@ -28,7 +28,9 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 
 * Change the configs in the class *HEVC_dataset* of the file [dataset.py]() to the dataset path to be tested, e.g.:
 
-`root="/home/xxx/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"`
+```
+root="/home/xxx/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"
+```
 
 * Run the test.py for testing, in which the config named *model_path* is the pretrained model, and *lambda_weight* is the lambda value of the prerained model, e.g.:
 
