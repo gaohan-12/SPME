@@ -25,8 +25,8 @@ gpu_num = torch.cuda.device_count()
 def parse_args():
     parser = argparse.ArgumentParser(description="Testing configs")
 
-    parser.add_argument("--lambda_weight", type=int, help="the lambda value")
-    parser.add_argument("--model_path", type=str, help="the pre-trained model path")
+    parser.add_argument("--lambda_weight", type=int, default=2048, help="the lambda value")
+    parser.add_argument("--model_path", type=str, default="./Checkpoints/2048.pth", help="the pre-trained model path")
 
     args = parser.parse_args()
     return args
