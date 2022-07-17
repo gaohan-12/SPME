@@ -19,13 +19,13 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 
 ## Data Preparation
 
-### Training dataset
-* Download [Vimeo-90k dataset](http://toflow.csail.mit.edu/).
-
 ### Testing dataset
-* Download [HEVC dataset](), [UVG dataset](http://ultravideo.fi/#testsequences)(1080p/8bit/YUV/RAW) and [MCL-JCV dataset](http://mcl.usc.edu/mcl-jcv-dataset/).
+* Download [HEVC dataset](), [UVG dataset](http://ultravideo.fi/#testsequences)(1080p/8bit/YUV/RAW) and [MCL-JCV dataset](http://mcl.usc.edu/mcl-jcv-dataset/), and convert them from YUV format to png format.
 
 ## Run
+
+### Change the configs in the class *HEVC_dataset* of the file [dataset.py]() to the dataset path to be tested, e.g:
+`root="/home/zhaoyu/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"`
 
 ## Acknowledgement
 During implementation, we drawed on the experience of [CompressAI](https://github.com/InterDigitalInc/CompressAI), [PyTorchVideoCompression](https://github.com/ZhihaoHu/PyTorchVideoCompression) and [DCVC](https://github.com/DeepMC-DCVC/DCVC). The model weights of intra coding are from [CompressAI](https://github.com/InterDigitalInc/CompressAI).
