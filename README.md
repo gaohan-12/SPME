@@ -28,7 +28,7 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 
 ## Test
 
-* Change the configs in the class *HEVC_dataset* of the file [dataset.py](https://github.com/gaohan-12/SPME/blob/main/dataset.py) to the path of the data to be tested, e.g.:
+* Change the configs in the class `HEVC_dataset` of the file [dataset.py](https://github.com/gaohan-12/SPME/blob/main/dataset.py) to the path of the data to be tested, e.g.:
 
   ```
   root="/home/xxx/HEVC_dataset/Class_B", filelist="./Tools/filelists/B.txt"
