@@ -44,5 +44,14 @@ During implementation, we drawed on the experience of [CompressAI](https://githu
 ## Citation
 If you find this paper useful, kindly cite:
 
+```
+@inproceedings{gao2022structure,
+  title={Hybrid Spatial-Temporal Entropy Modelling for Neural Video Compression},
+  author={Gao, Han and Cui, Jinzhong and Ye, Mao and Li, Shuai and Zhao, Yu and Zhu, Xiatian},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  year={2022}
+}
+```
+
 ## Contact
 If any questions, kindly contact with Han Gao via e-mail: han.gao@std.uestc.edu.cn.
