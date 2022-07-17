@@ -24,7 +24,7 @@ Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, J
 
 ### Testing dataset
 
-* Download [HEVC dataset](), [UVG dataset](http://ultravideo.fi/#testsequences)(1080p/8bit/YUV/RAW) and [MCL-JCV dataset](http://mcl.usc.edu/mcl-jcv-dataset/), and convert them from YUV format to png format.
+* Download [HEVC dataset](), [UVG dataset](http://ultravideo.fi/#testsequences)(1080p/8bit/YUV/RAW) and [MCL-JCV dataset](http://mcl.usc.edu/mcl-jcv-dataset/), and convert them from YUV format to PNG format.
 
 ## Test
 
