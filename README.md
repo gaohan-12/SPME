@@ -2,7 +2,7 @@
 
 This is the official implementation and appendix of the paper:
 
-Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, Jinzhong Cui, Mao Ye, Shuai Li, Yu Zhao, Xiatian Zhu. ACM Multimedia 2022. [https://doi.org/10.1145/3503161.3548156]
+Structure-Preserving Motion Estimation for Learned Video Compression. Han Gao, Jinzhong Cui, Mao Ye, Shuai Li, Yu Zhao, Xiatian Zhu. ACM Multimedia 2022. [Link](https://doi.org/10.1145/3503161.3548156)
 
 ## TODO
 
